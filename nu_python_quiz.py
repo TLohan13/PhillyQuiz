@@ -6,7 +6,8 @@ def new_game():
     question_num = 1
 
     for key in questions:
-        print("--------------------")
+        print("------Philly Quiz!------")
+
         print(key)
         for i in options[question_num-1]:
             print(i)
@@ -25,10 +26,10 @@ def new_game():
 
 def check_answer(answer, guess):
     if answer == guess:
-        print("CORRECT!")
+        print("Right Jawn!")
         return 1
     else:
-        print("WRONG!")
+        print("Wrong Jawn!")
         return 0
 
 # ====================
@@ -36,7 +37,7 @@ def check_answer(answer, guess):
 
 def display_score(correct_guesses, guesses):
     print("--------------------")
-    print("RESULTS:")
+    print("How'd you do?:")
     print("--------------------")
 
     print("Answers: ", end="")
@@ -72,7 +73,7 @@ questions = {
     "Who created the first Cheesesteak?: ": "A",
     "What year was Philadelphia founded?: ": "B",
     "Which Philly Quarterback beat Tom Brady to win the Superbowl in 2018?: ": "C",
-    "Is Philadelphia located in Pennsylvania: ": "A"
+    "Is Philadelphia located in Pennsylvania?: ": "A"
 
 
 }
