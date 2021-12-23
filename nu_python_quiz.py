@@ -69,18 +69,19 @@ def play_again():
 
 
 questions = {
-    "Who created Python?: ": "A",
-    "What year was Python created?: ": "B",
-    "Python is tributed to which comedy group?: ": "C",
-    "Is the Earth round?: ": "A"
+    "Who created the first Cheesesteak?: ": "A",
+    "What year was Philadelphia founded?: ": "B",
+    "Which Philly Quarterback beat Tom Brady to win the Superbowl in 2018?: ": "C",
+    "Is Philadelphia located in Pennsylvania: ": "A"
 
 
 }
 
-options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuckerburg"],
-           ["A. 1989", "B. 1991", "C. 2000", "D. 2016"],
-           ["A. Lonely Island", "B. Smosh", "C. Monty Python", "D. SNL"],
-           ["A. True", "B. False", "C. sometimes", "D. What's Earth?"]]
+options = [["A. Pat Olivieri", "B. Elon Musk", "C. Questlove", "D. Betsy Ross"],
+           ["A. 1978", "B. 1682", "C. 2003", "D. 2017"],
+           ["A. Drew Brees", "B. Russell Wilson",
+               "C. Nick Foles", "D. Patrick Mahomes"],
+           ["A. Yes", "B. No", "C. Who is Philly?", "D. What is Philly?"]]
 
 new_game()
 
